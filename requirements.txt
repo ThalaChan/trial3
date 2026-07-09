@@ -1,0 +1,8 @@
+# UTM Drone Traffic Simulator — Python dependencies
+#
+# Required
+pygame-ce>=2.5.0      # rendering, event loop, fonts, drawing
+#
+# Optional (needed for Excel import/export)
+# If not installed, the simulator falls back to CSV for all file I/O.
+openpyxl>=3.1.0
